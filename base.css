@@ -10,6 +10,9 @@
 /*Raleway(500-900)*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;0,800;0,900;1,500&display=swap');
 
+/*Playfair Display*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Raleway:wght@500;800;900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -23,6 +26,6 @@ a {
 }
 :root {
     --text-color: #000;
-    --green-color: #4BA87D;
+    --green-color: #4ba87d;
     --primary-color: #fff;
 }

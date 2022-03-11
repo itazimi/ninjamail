@@ -21,19 +21,13 @@ body{
 
 }
 .main-header .main-logo{
-    width: 129px;
     height: 64.5px;
-    top:-0.25px;
 }
 .main-header .logo-type{
     font-weight: 900;
     font-size: 35px;
-    line-height: 41px;
-    width: 163px;
-    height: 41px;
-    top: 7.38px;
-    left: 107.77px;
     color: var(--text-color);
+    margin-left: -10px;
 }
 .main-header .navigation-menu{
     display: flex;
@@ -71,4 +65,65 @@ body{
     text-transform: uppercase;
     text-align: center;
     padding: 11px 20px;
+}
+
+/*** main background***/
+    .landing-page{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 200px);
+        min-height: 500px;
+    }
+.landing-page .landing-page__banner{
+    width: 48vw;
+    height: 30vw;
+    background-size: 100% 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.19);
+    margin-left: -7%;
+}
+.landing-page .title-box{
+    display: inherit;
+    flex-direction: column;
+    z-index: 1;
+    width: 30vw;
+    margin-right: -18px;
+}
+.landing-page .title-box h1{
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 59px;
+    line-height: 71px;
+    color: var(--text-color);
+    margin-bottom: 35px;
+}
+.landing-page .title-box p{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 26px;
+    color: var(--text-color);
+    margin-bottom: 35px;
+}
+.landing-page .landing-buttons .active{
+    background-color: var(--green-color);
+    color: var(--primary-color);
+    padding: 20px 44px;
+    margin-right: 35px;
+
+}
+.landing-page .landing-buttons button{
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.05px;
+    color: var(--green-color);
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    padding: 20px 28px;
+    border: 3px solid #4BA87D;
+    cursor: pointer;
 }
